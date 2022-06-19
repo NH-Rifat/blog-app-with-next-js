@@ -47,7 +47,7 @@ function Navbar() {
                     <a>Food</a>
                   </Link>
                   <Link
-                    href='/about'
+                    href='/travel'
                     activeClass='about'
                     to='about'
                     smooth={true}
@@ -55,7 +55,7 @@ function Navbar() {
                     duration={500}
                     className='cursor-pointer hover:bg-blue-600 text-black hover:text-white px-3 py-2 rounded-md text-sm font-medium'
                   >
-                    About
+                    <a>Travel</a>
                   </Link>
 
                   <Link

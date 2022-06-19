@@ -92,3 +92,165 @@ export const food = [
   }
 ]
   
+
+
+export const travel = [
+  {
+    id:1,
+    item_img:'https://i.ibb.co/GVyQ4kr/travel-post-1.jpg',
+    item_name:'Charming Evening Field',
+    category:'travel',
+    des:'To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses...',
+    post_date_time:'20 july 2020',
+    blogger_name:'Liam Noah',
+    blogger_prof:'Mr. Cookers',
+    blogger_img:'',
+    contact:'+1545342341',
+    email:'liam@gamil.com'
+  },
+  {
+    id:2,
+    item_img:'https://i.ibb.co/jwJycbq/travel-post-2.jpg',
+    item_name:'Charming Evening Field',
+    category:'travel',
+    des:'To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses...',
+    post_date_time:'20 july 2020',
+    blogger_name:'Liam Noah',
+    blogger_prof:'Mr. Cookers',
+    blogger_img:'',
+    contact:'+1545342341',
+    email:'liam@gamil.com'
+  },
+  {
+    id:3,
+    item_img:'https://i.ibb.co/cCRpSyL/travel-post-3.jpg',
+    item_name:'Charming Evening Field',
+    category:'travel',
+    des:'To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses...',
+    post_date_time:'20 july 2020',
+    blogger_name:'Liam Noah',
+    blogger_prof:'Mr. Cookers',
+    blogger_img:'',
+    contact:'+1545342341',
+    email:'liam@gamil.com'
+  },
+  {
+    id:4,
+    item_img:'https://i.ibb.co/fpQhJDy/travel-post-6.jpg',
+    item_name:'Charming Evening Field',
+    category:'travel',
+    des:'To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses...',
+    post_date_time:'20 july 2020',
+    blogger_name:'Liam Noah',
+    blogger_prof:'Mr. Cookers',
+    blogger_img:'',
+    contact:'+1545342341',
+    email:'liam@gamil.com'
+  },
+  {
+    id:5,
+    item_img:'https://i.ibb.co/x79gwmC/travel-post-4.jpg',
+    item_name:'Charming Evening Field',
+    category:'travel',
+    des:'To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses...',
+    post_date_time:'20 july 2020',
+    blogger_name:'Liam Noah',
+    blogger_prof:'Mr. Cookers',
+    blogger_img:'',
+    contact:'+1545342341',
+    email:'liam@gamil.com'
+  },
+  {
+    id:6,
+    item_img:'https://i.ibb.co/ykWpz93/travel-post-5.jpg',
+    item_name:'Charming Evening Field',
+    category:'travel',
+    des:'To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses...',
+    post_date_time:'20 july 2020',
+    blogger_name:'Liam Noah',
+    blogger_prof:'Mr. Cookers',
+    blogger_img:'',
+    contact:'+1545342341',
+    email:'liam@gamil.com'
+  },
+  {
+    id:7,
+    item_img:'https://i.ibb.co/f04JgwJ/travel-post-8.jpg',
+    item_name:'Charming Evening Field',
+    category:'travel',
+    des:'To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses...',
+    post_date_time:'20 july 2020',
+    blogger_name:'Liam Noah',
+    blogger_prof:'Mr. Cookers',
+    blogger_img:'',
+    contact:'+1545342341',
+    email:'liam@gamil.com'
+  },
+  {
+    id:8,
+    item_img:'https://i.ibb.co/sjbntBP/travel-post-7.jpg',
+    item_name:'Charming Evening Field',
+    category:'travel',
+    des:'To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses...',
+    post_date_time:'20 july 2020',
+    blogger_name:'Liam Noah',
+    blogger_prof:'Mr. Cookers',
+    blogger_img:'',
+    contact:'+1545342341',
+    email:'liam@gamil.com'
+  },
+  {
+    id:9,
+    item_img:'https://i.ibb.co/xCshmdZ/travel-post-9.jpg',
+    item_name:'Charming Evening Field',
+    category:'travel',
+    des:'To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses...',
+    post_date_time:'20 july 2020',
+    blogger_name:'Liam Noah',
+    blogger_prof:'Mr. Cookers',
+    blogger_img:'',
+    contact:'+1545342341',
+    email:'liam@gamil.com'
+  },
+  {
+    id:10,
+    item_img:'https://i.ibb.co/L8w487m/travel-post-12.jpg',
+    item_name:'Charming Evening Field',
+    category:'travel',
+    des:'To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses...',
+    post_date_time:'20 july 2020',
+    blogger_name:'Liam Noah',
+    blogger_prof:'Mr. Cookers',
+    blogger_img:'',
+    contact:'+1545342341',
+    email:'liam@gamil.com'
+  },
+  {
+    id:11,
+    item_img:'https://i.ibb.co/zrsrMt1/travel-post-10.jpg',
+    item_name:'Charming Evening Field',
+    category:'travel',
+    des:'To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses...',
+    post_date_time:'20 july 2020',
+    blogger_name:'Liam Noah',
+    blogger_prof:'Mr. Cookers',
+    blogger_img:'',
+    contact:'+1545342341',
+    email:'liam@gamil.com'
+  },
+  {
+    id:12,
+    item_img:'https://i.ibb.co/zNTR44F/travel-post-11.jpg',
+    item_name:'Charming Evening Field',
+    category:'travel',
+    des:'To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses...',
+    post_date_time:'20 july 2020',
+    blogger_name:'Liam Noah',
+    blogger_prof:'Mr. Cookers',
+    blogger_img:'',
+    contact:'+1545342341',
+    email:'liam@gamil.com'
+  },
+]
+  
+
