@@ -79,6 +79,17 @@ function Navbar() {
                   >
                     <a>Architecture</a>
                   </Link>
+                  <Link
+                    href='/manageBlogs'
+                    activeClass='about'
+                    to='about'
+                    smooth={true}
+                    offset={50}
+                    duration={500}
+                    className='cursor-pointer hover:bg-blue-600 text-black hover:text-white px-3 py-2 rounded-md text-sm font-medium'
+                  >
+                    <a>Manage Blogs</a>
+                  </Link>
 
                   <Link
                     href='/contact'
