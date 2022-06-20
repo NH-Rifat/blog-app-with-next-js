@@ -6,7 +6,7 @@ const TravelDetails = ({ item }) => {
   const router = useRouter();
 
   if (router.isFallback) {
-    return <h1 className='text-3xl'>Loading...</h1>;
+    return <h1 className='text-3xl text-center font-semibold mt-20'>Loading...</h1>;
   }
   return (
     <div className='mt-16 flex justify-center items-center'>
