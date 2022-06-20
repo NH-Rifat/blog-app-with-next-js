@@ -1,4 +1,4 @@
-import FoodItem from '../../components/FoodBlogItem';
+import FoodBlogItem from '../../components/FoodBlogItem';
 
 const AllFood = ({items}) => {
   console.log('food items',items);
@@ -6,7 +6,7 @@ const AllFood = ({items}) => {
   return (
     <div className='container mx-auto grid grid-cols-3 gap-4'>
       {
-        items.map(item=><FoodItem key={item.id} item={item}></FoodItem>)
+        items.map(item=><FoodBlogItem key={item.id} item={item}></FoodBlogItem>)
       }
     </div>
   );

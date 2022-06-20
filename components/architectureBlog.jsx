@@ -4,7 +4,7 @@ import { useRouter } from 'next/router';
 import { useState } from 'react';
 import FoodModal from './FoodModal';
 
-const FoodBlogItem = ({ item }) => {
+const ArchitectureBlogItem = ({ item }) => {
   // console.log(item);
   const [modalIsOpen, setIsOpen] = useState(false);
   const [details, setDetails] = useState({});
@@ -13,7 +13,7 @@ const FoodBlogItem = ({ item }) => {
 
   const itemDetails = (itemId) => {
     console.log('itemId', itemId);
-    router.push(`food/${itemId}`);
+    router.push(`architecture/${itemId}`);
   };
   function openModal() {
     console.log('modal clicking');
@@ -48,4 +48,4 @@ const FoodBlogItem = ({ item }) => {
   );
 };
 
-export default FoodBlogItem;
+export default ArchitectureBlogItem;

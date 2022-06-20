@@ -36,6 +36,17 @@ function Navbar() {
                     Home
                   </Link>
                   <Link
+                    href='/allBlog'
+                    activeClass='Home'
+                    to='about'
+                    smooth={true}
+                    offset={50}
+                    duration={500}
+                    className='cursor-pointer text-blue-600 font-semibold px-3 py-2 text-md hover:font-black'
+                  >
+                    <a>All Blog</a>
+                  </Link>
+                  <Link
                     href='/food'
                     activeClass='Home'
                     to='about'
@@ -56,6 +67,17 @@ function Navbar() {
                     className='cursor-pointer hover:bg-blue-600 text-black hover:text-white px-3 py-2 rounded-md text-sm font-medium'
                   >
                     <a>Travel</a>
+                  </Link>
+                  <Link
+                    href='/architecture'
+                    activeClass='about'
+                    to='about'
+                    smooth={true}
+                    offset={50}
+                    duration={500}
+                    className='cursor-pointer hover:bg-blue-600 text-black hover:text-white px-3 py-2 rounded-md text-sm font-medium'
+                  >
+                    <a>Architecture</a>
                   </Link>
 
                   <Link

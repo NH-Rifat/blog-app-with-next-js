@@ -1,13 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
-import { useRouter } from 'next/router';
-
-const TravelDetails = ({ item }) => {
+const Details = ({ item }) => {
   // console.log(item);
-  const router = useRouter();
-
-  if (router.isFallback) {
-    return <h1 className='text-3xl'>Loading...</h1>;
-  }
   return (
     <div className='mt-16 flex justify-center items-center'>
       <div className=''>
@@ -21,33 +14,22 @@ const TravelDetails = ({ item }) => {
   );
 };
 
-export default TravelDetails;
+export default Details;
 
 export async function getStaticPaths() {
-  const response = await fetch('http://localhost:3000/api/travel');
+  const response = await fetch('http://localhost:3000/api/architecture');
   const data = await response.json();
 
   const paths = data.map((item) => {
     return {
       params: {
-        travelBlogId: `${item.id}`,
+        architectureBlogId: `${item.id}`,
       },
     };
   });
   return {
-    paths: [
-      {
-        params: { travelBlogId: '1' },
-      },
-      {
-        params: { travelBlogId: '2' },
-      },
-      {
-        params: { travelBlogId: '3' },
-      },
-    ],
-    // paths,
-    fallback: true,
+    paths,
+    fallback: false,
   };
 }
 
@@ -56,7 +38,7 @@ export async function getStaticProps(context) {
   const { params } = context;
   // console.log(params);
   const response = await fetch(
-    `http://localhost:3000/api/travel/${params.travelBlogId}`
+    `http://localhost:3000/api/architecture/${params.architectureBlogId}`
   );
   const data = await response.json();
 
