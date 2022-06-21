@@ -8,7 +8,7 @@ const fetcher = async () => {
 };
 
 const ManageAllBlogs = () => {
-  const { data, error } = useSWR('manageBlogs', fetcher);
+  const { data, error } = useSWR('manageBlogs', fetcher,{refreshInterval: 300});
 
   if (error) {
     return 'An error has occured';

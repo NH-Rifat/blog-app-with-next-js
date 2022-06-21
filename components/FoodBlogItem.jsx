@@ -1,4 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
+
 import Image from 'next/image';
 import { useRouter } from 'next/router';
 import { useState } from 'react';
@@ -22,7 +23,7 @@ const FoodBlogItem = ({ item }) => {
   }
   return (
     <div className='w-3/4'>
-      <img src={item.item_img} alt='image not found' />
+      <img className='' src={item.item_img} alt='image not found' layout='fill' />
       <h1 className='text-2xl font-semibold mb-4'>{item.item_name}</h1>
       <p className='w-3/4'>{item.des}</p>
       <div className='w-3/4 flex justify-between mt-3'>
