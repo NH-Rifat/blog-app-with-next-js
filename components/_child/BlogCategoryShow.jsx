@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 
-const FoodBlogCategoryShow = ({ item }) => {
+const BlogCategoryShow = ({ item }) => {
   const {
     id,
     item_img,
@@ -72,4 +72,4 @@ const FoodBlogCategoryShow = ({ item }) => {
   );
 };
 
-export default FoodBlogCategoryShow;
+export default BlogCategoryShow;

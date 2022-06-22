@@ -4,7 +4,7 @@ import Author from './_child/Author';
 import img from '../public/blog.jpg';
 import { food } from '../data/data';
 import { travel } from '../data/data';
-import FoodBlogCategoryShow from './_child/FoodBlogCategoryShow';
+import BlogCategoryShow from './_child/BlogCategoryShow';
 
 
 const BlogCategory = () => {
@@ -15,7 +15,7 @@ const BlogCategory = () => {
           <h1 className='font-bold text-4xl py-12 text-center'>Food</h1>
           <div className='flex flex-col gap-6'>
           {
-            food.slice(0,3).map(item=><FoodBlogCategoryShow key={item.id} item={item}></FoodBlogCategoryShow>)
+            food.slice(0,3).map(item=><BlogCategoryShow key={item.id} item={item}></BlogCategoryShow>)
           }
           </div>
         </div>
@@ -23,7 +23,7 @@ const BlogCategory = () => {
           <h1 className='font-bold text-4xl py-12 text-center'>Travel</h1>
           <div className='flex flex-col gap-6'>
           {
-            travel.slice(0,3).map(item=><FoodBlogCategoryShow key={item.id} item={item}></FoodBlogCategoryShow>)
+            travel.slice(0,3).map(item=><BlogCategoryShow key={item.id} item={item}></BlogCategoryShow>)
           }
           </div>
         </div>
