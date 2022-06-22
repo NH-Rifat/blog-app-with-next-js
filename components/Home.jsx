@@ -27,7 +27,7 @@ const Home = () => {
     <section className='py-16'>
       <div className='container mx-auto md:px-20'>
         <h1 className='font-bold text-4xl pb-12 text-center'></h1>
-        {Slide()}
+        <Slide />
       </div>
     </section>
   );
@@ -63,7 +63,7 @@ function Slide() {
           <Link href={'/'}>
             <a className='text-3xl md:text-5xl font-bold text-gray-700 hover:text-gray-600'>
               A blogging platform is a software or service used to manage and
-              publish content 
+              publish content
             </a>
           </Link>
         </div>
